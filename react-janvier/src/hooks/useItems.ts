@@ -1,4 +1,4 @@
-import { fetchItems } from "src/itemsApi";
+import { fetchItems } from "src/api/itemsApi";
 import { useQuery } from "@tanstack/react-query";
 
 export const useItems = () => {
