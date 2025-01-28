@@ -1,13 +1,11 @@
 import "./App.css";
 import Page from "@pages/Page";
-import { List } from "@atoms/List";
 
 function App() {
   return (
-    <>
+    <div className="bg-indigo-950 w-full p-3 text-white">
       <Page />
-      <List />
-    </>
+    </div>
   );
 }
 
